@@ -1,11 +1,12 @@
 ### Welcome 👋
 
 My name is Angel Berlanas Vicente, IT Teacher and OpenSource Lover.
-In this page you can find some (useful) ideas and resources about **random** and not so **random** proyects.
+In this page you can find some (useful) ideas and resources about **random** and not so **random** projects.
 
 ### Status
 
-- 🌱 I’m currently learning Haskell and Markdown.
+- 🔭 I’m currently working on CLIL materials for IT Vocational Students.
+- 🌱 I’m currently learning OrgMode, Literate Programming, Lisp and Esperanto.
 
 <!--
 **aberlanas/aberlanas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
