@@ -6,7 +6,11 @@ In this page you can find some (useful) ideas and resources about **random** and
 ### Status
 
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
-- 🌱 I’m currently learning OrgMode, Literate Programming, Lisp and Esperanto.
+- 🌱 I’m currently learning :
+     * Emacs and OrgMode 
+	 * Literate Programming
+	 * Emacs Lisp 
+	 * Esperanto
 
 ### Workspace
 
