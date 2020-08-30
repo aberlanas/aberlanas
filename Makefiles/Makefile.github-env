@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+# This script is licensed under GPLv3 or
+# higher.
+
+# Author: Angel Berlanas Vicente
+# 	  <berlanas_ang@gva.es>
+
+# Simple makefile to keep clean my Workspace
+# please install this file at: ~/GitHub/
+
+clean-github:
+	@echo " * Cleaning GitHub build files"
+	rm -rf *.dsc
+	rm -rf *.build*
+	rm -rf *.changes
+	rm -rf *.ppa.upload
+	rm -rf *.deb
+	rm -rf *.tar.gz
+
