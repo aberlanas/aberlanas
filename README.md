@@ -6,19 +6,15 @@ In this page you can find some (useful) ideas and resources about **random** and
 ### Status
 
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
-- 🌱 I’m currently learning :
-     * Emacs and OrgMode 
-	 * Literate Programming
-	 * Emacs Lisp 
-	 * Esperanto
+- 🌱 I’m currently learning : Emacs, OrgMode, Emacs Lisp, Esperanto
 
 ### Workspace
 
 - My DotFiles are under GitHub:
 
-	* [Bash Config](Bash/dot.bashrc)
-	* [Emacs Config](Emacs/dot.emacs)
-	* [Kitty Config](Kitty/kitty.conf)
-	* [Awesome](Awesome/rc.lua)
+	* [Bash Config](./Bash/dot.bashrc)
+	* [Emacs Config](./Emacs/dot.emacs)
+	* [Kitty Config](./Kitty/kitty.conf)
+	* [Awesome](./Awesome/rc.lua)
 	
-- 📫 [Would you like to know more?](LongReadme.org)
+- 📫 [Would you like to know more?](./LongReadme.org)
