@@ -14,7 +14,5 @@ In this page you can find some (useful) ideas and resources about **random** and
 
 	* [Bash Config](./Bash/dot.bashrc)
 	* [Emacs Config](./Emacs/dot.emacs)
-	* [Kitty Config](./Kitty/kitty.conf)
-	* [Awesome](./Awesome/rc.lua)
 	
 - 📫 [Would you like to know more?](./LongReadme.org)
