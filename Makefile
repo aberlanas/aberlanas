@@ -3,20 +3,19 @@
 
 prepare-dirs: 
 	@echo " * [ Building directories ] "
-	@mkdir -p $HOME/.config/kitty/
-	@mkdir -p $HOME/.config/awesome
+	#@mkdir -p $HOME/.config/kitty/
+
 
 
 install : prepare-dirs
 
 	@echo " * [ Emacs ] : Copiando config de Emacs"
-	@cp Emacs/dot.emacs $HOME/.emacs
+	@cp Emacs/dot.emacs ~/.emacs
 
-	@echo " * [ Kitty ] :  Copiando config de Kitty"
-	@cp Kitty/kitty.conf $HOME/.config/kitty/
+	#@echo " * [ Kitty ] :  Copiando config de Kitty"
+	#@cp Kitty/kitty.conf ~/.config/kitty/
 
 	@echo " * [ Bash ]  : Copiando config de Bash "
-	@cp Bash/dot.bashrc $HOME/.bashrc
+	@cp Bash/dot.bashrc ~/.bashrc
 
-	@echo " * [ Awesome ] : Copiando config de Awesome "
-	@cp Awesome/rc.lua $HOME/.config/awesome
+

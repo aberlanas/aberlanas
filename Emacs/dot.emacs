@@ -1,4 +1,4 @@
-;; Modificado: 20200822
+;; Modificado: 20200905
 ;;
 
 ;; Inicio
@@ -75,6 +75,7 @@
                           yaml-mode
 			  ox-hugo
 			  magit
+			  multiple-cursors
 			  )
   "Paquetes Defecto")
 
