@@ -1,3 +1,24 @@
 # aberlanas Long Readme
 
 This is a aberlanas Long Readme
+
+* Emacs
+
+** Dependences
+
+   For a correct usage of this configuration, you will need some 
+   packages installed:
+
+   - ditaa
+   - pandoc
+   - texlive-extra-utils
+   - texlive-lang-spanish
+   - texlive-latex-extra
+   
+     You can install these packages with:
+     
+#+BEGIN_SRC shell
+sudo apt install pandoc ditaa texlive-extra-utils texlive-lang-spanish texlive-latex-extra
+#+END_SRC    
+
+
