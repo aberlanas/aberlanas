@@ -1,12 +1,6 @@
-;; Modificado: 20200905
+;; Modificado: 20200915
 ;;
 
-;; Inicio
-(setq inhibit-splash-screen t
-      initial-scratch-message nil)
-
-;; Establecemos el fichero de titulo
-(setq frame-title-format "%b")
 
 ;; Use package for now...testing...
 ;; Esto no se si se quedara
@@ -34,21 +28,19 @@
 (use-package use-package-chords
   :config (key-chord-mode 1))
 
+
+;;
+;; Komenca punkto
+;;
+
+(setq inhibit-splash-screen t
+      initial-scratch-message nil)
+
+;; Establecemos el fichero de titulo
+(setq frame-title-format "%b")
+
 ;; Coloreado de Syntaxis
 (global-font-lock-mode 1)
-
-;; Working area
-(use-package display-line-numbers
-  :straight (:type built-in)
-  :hook
-  (prog-mode . display-line-numbers-mode))
-
-;; Latex
-;; Using pdflatex to compile latex documents
-(setq latex-run-command "pdflatex")
-
-;; fontify code in code blocks
-(setq org-src-fontify-natively t)
 
 ;; backup in one place. flat, no tree structure
 (setq backup-directory-alist '(("" . "~/.emacs.d/backup")))
@@ -56,11 +48,38 @@
 ;; Show Paren mode
 (show-paren-mode 1)
 
+
+(org-babel-do-load-languages 'org-babel-load-languages '(
+			     (python . t) 
+			     (ditaa . t))
+)
+
+;; Working area
+(use-package display-line-numbers
+  :straight (:type built-in)
+  :hook
+  (prog-mode . display-line-numbers-mode))
+
+
+;;
+;; Org-Mode kaj Documentado
+;; Latex
+;; Using pdflatex to compile latex documents
+(setq latex-run-command "pdflatex")
+
+;; fontify code in code blocks
+(setq org-src-fontify-natively t)
+
+
 ;; Autoident
 (when (fboundp 'electric-indent-mode) (electric-indent-mode -1))
 (electric-indent-mode 0)
 
-;; Configurando 
+
+;;
+;; Instalado de Pakoj
+;;
+ 
 (load "package")
 (package-initialize)
 (add-to-list 'package-archives
@@ -94,11 +113,9 @@
 (require 'auto-complete-config)
 (ac-config-default)
 
-(with-eval-after-load 'ox
-  (require 'ox-hugo))
-
-
-;; Temas
+;;
+;; Aspekto
+;;
 
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 
@@ -140,14 +157,10 @@
   (defconst fk/light-color9 (doom-lighten fk/background-color 0.01)))
 
 
-
-
-
-
-
-
+;;
 ;; Fuente
 ;;
+
 (defconst fk/default-font-size 100)
 (defconst fk/default-icon-size 20)
 
@@ -161,3 +174,37 @@
                     :height (+ fk/default-font-size 10))
 
 
+
+
+;;----------------------------------------------------------------------
+;;
+;; OS specific
+;; 
+;;
+    (cond
+
+        ((string-equal system-type "windows-nt") ; Microsoft Windows
+
+            (progn
+
+                (setq-default ispell-program-name "C:/bin/Aspell/bin/aspell.exe") 
+
+                (setq org-ditaa-jar-path "c:/bin/ditaa/ditaa.jar")
+
+            )
+
+        )
+
+        ((string-equal system-type "gnu/linux") ; Linux
+
+            (progn
+
+                (setq x-select-enable-clipboard t)
+
+                (setq org-ditaa-jar-path "/usr/bin/ditaa")
+
+            )
+
+        )
+
+    )
