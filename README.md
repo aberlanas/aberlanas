@@ -8,6 +8,7 @@ In this page you can find some (useful) ideas and resources about **random** and
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
 - 🌱 I’m currently learning : Phil Eklund Games, Python.
 
+
 ### Workspace
 
 - My DotFiles are under GitHub:
