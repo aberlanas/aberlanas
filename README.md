@@ -6,8 +6,8 @@ In this page you can find some (useful) ideas and resources about **random** and
 ### Status
 
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
-- 🌱 I’m currently learning : Phil Eklund Games, Python.
-
+- 🌱 I’m currently learning : Wargames, Phil Eklund Games and Python.
+- [Testing Area](./Games/Readme.md)
 
 ### Workspace
 
