@@ -19,4 +19,9 @@
 - [ Forgotten Legions ] : Buscar referencias lectura.
 - [ Forgotten Legions ] : Buscar referencias cine.
 
+- [ Italia 44 ] : Escanear las reglas.
+- [ Italia 44 ] : Imprimir las reglas.
+- [ Italia 44 ] : Modulo Vassal.
+- [ Italia 44 ] : Leer referencias lectura.
+
 ## Done
