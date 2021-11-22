@@ -126,6 +126,7 @@ fi
 
 # Binaries
 export PATH="$PATH:/home/aberlanas/bin/node/bin/"
+export PATH="$PATH:/home/aberlanas/bin/"
 
 
 # IES La Senia
@@ -135,3 +136,5 @@ export DEBFULLNAME="tic La Senia"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
+
+alias musicapamaria="youtube-dl --extract-audio --audio-format mp3 "
