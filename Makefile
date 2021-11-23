@@ -9,9 +9,6 @@ prepare-dirs:
 
 install : prepare-dirs
 
-	#@echo " * [ Emacs ] : Copiando config de Emacs"
-	#@cp Emacs/dot.emacs ~/.emacs
-
 	@echo " * [ Kitty ] :  Copiando config de Kitty"
 	@cp Kitty/kitty.conf ~/.config/kitty/
 

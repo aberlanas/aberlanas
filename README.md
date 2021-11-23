@@ -7,13 +7,14 @@ In this page you can find some (useful) ideas and resources about **random** and
 
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
 - 🌱 I’m currently learning : Wargames, Phil Eklund Games and Python.
-- [Testing Area](./Games/Readme.md)
+- [Testing Area - Wargames](./Games/Readme.md)
 
 ### Workspace
 
 - My DotFiles are under GitHub:
 
 	* [Bash Config](./Bash/dot.bashrc)
+	* [Kitty](./Kitty/kitty.conf)
 	* [SciTE Config](./Scite/SciTEUser.properties)
 	
 - 📫 [Would you like to know more?](./LongReadme.org)
