@@ -9,6 +9,12 @@ In this page you can find some (useful) ideas and resources about **random** and
 - 🌱 I’m currently learning : Wargames, Phil Eklund Games and Python.
 - [Testing Area - Wargames](./Games/Readme.md)
 
+### Repositories
+
+Year 2021-2022: 
+
+- [ SOX ](https://github.com/aberlanas/SMX-SOX)
+
 ### Workspace
 
 - My DotFiles are under GitHub:
