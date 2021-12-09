@@ -24,4 +24,6 @@ Necesitarás :
 - Teclado/Ratón USB.
 - Cable de Red normal.
 
+## Instalación de RetroPie
+
 
