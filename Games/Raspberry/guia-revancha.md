@@ -19,5 +19,9 @@ Son 55 euros, voy a buscarla más barata, si la encuentro la colgare en esta gui
 
 Necesitarás :
 
-- Un monitor/pantalla HDMI + un cable HDMI
-- 
+- Un monitor/pantalla HDMI + un cable mini-HDMI.
+- Una tarjeta SD de categoria 10.
+- Teclado/Ratón USB.
+- Cable de Red normal.
+
+
