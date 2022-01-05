@@ -17,10 +17,17 @@ Year 2021-2022:
 
 ### Workspace
 
+- Some useful packages:
+
+ * fonts-jetbrains-mono
+ * kitty
+ * vim
+ * git-buildpackage
+
 - My DotFiles are under GitHub:
 
 	* [Bash Config](./Bash/dot.bashrc)
 	* [Kitty](./Kitty/kitty.conf)
 	* [SciTE Config](./Scite/SciTEUser.properties)
-	
+
 - 📫 [Would you like to know more?](./LongReadme.org)
