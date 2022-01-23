@@ -71,5 +71,15 @@ El uso de la fuerza aérea por parte de los Otomanos hace posible el bombardeo d
 ![Air Control](imgs/01-Air-Control.jpg)
 
 
+Cuando los británicos llegan hasta las diferentes ciudades fortificadas, defendidas por los Otomanos, comienzan los combates, donde la superioridad numérica de los británicos no se nota tanto, ya que al no poder coordinar ataques sin tener penalizaciones, se ven forzados a intentar asaltos donde un resultado de *Ex* (Exchange), les beneficia. Las trincheras (*Trenches*), sólo benefician a las Potencias Centrales, lo que hace que muchos asaltos no tengan éxito o sean rechazados. 
 
+Concretamente en Gaza, las tropas británicas no tienen suerte y son rechazadas varias veces por las tropas defensoras + los refuerzos de caballeria que aparecen a lo largo de los turnos.
+
+![Refuerzos](imgs/01-Llegada-Refuerzos.jpg)
+
+El uso de las órdenes de *Kress*, que tenemos en un *chit*, permite que determinados ataques de las tropas Otomanas y Alemanas se vean intensificados y mejorados, causando varias bajas decisivas en las tropas británicas.
+
+![Reservas](imgs/01-Reservas.jpg)
+
+## Final de partida y Conclusiones
 
