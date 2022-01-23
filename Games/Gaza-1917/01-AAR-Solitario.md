@@ -14,7 +14,7 @@ Gaza 1917 de Decision Games es un juego integrado dentro de la serie *folio* de 
 
 Se presenta en un bolsa *zip* y su precio no excede los 20 euretes.
 
-![Cover](imgs/cover.jpg)
+![Cover](imgs/01-cover.jpg)
 
 En Decision Games tienen varios sistemas que forman la base de diferentes series de juegos y luego cada uno de ellos matiza o adapta esas reglas **base** para la batalla, escenario, operación,...
 
