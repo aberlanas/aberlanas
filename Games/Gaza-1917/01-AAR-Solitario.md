@@ -105,7 +105,7 @@ Al final, sólo 2 puntos han sido obtenidos por los británicos, lo que da lugar
 
 Me ha gustado el sistema, fácil de leer, fácil de aplicar y con las hojas de ayuda que han colgado en la BGG, junto con la CRT del juego plastificada y aparte, se juega en menos de los 90 minutos que aparece. 
 
-![Ayudas](imgs/01-Ayudas.png)
+![Ayudas](imgs/01-Ayudas.jpg)
 
 Me falta experiencia en Wargames y más si cabe en este periodo, pero por lo que he podido leer ( que me falta mucho por hacer ), creo que el juego representa bien la situación de ambas facciones, con una serie de reglas de *cromo* sencillas y fáciles de aplicar y recordar.
 

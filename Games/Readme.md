@@ -1,3 +1,9 @@
+# Utilidades
+
+convert  -resize 20% source.png dest.jpg
+
+convert input.png -bordercolor white -border 13 \( +clone -background black -shadow 80x3+2+2 \) +swap -background white -layers merge +repage output.png
+
 # Planing de Testeo
 
 ## TODO
@@ -21,10 +27,7 @@
 
 # Venta
 
-* Alea Italia + Amos del Horizonte.
-* Alea Cuestion de Honor.
 * Khe Sanh.
-* Friedrich.
 
 
 
