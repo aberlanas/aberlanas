@@ -1,3 +1,11 @@
+---
+title: AAR - Gaza 1917
+publisher: Decision Games
+conflict: First World War
+duration: 90'
+mode: solitaire-squizo
+---
+
 # [ AAR ] Gaza 1917 - Decision Games
 
 ## Descripción del juego
@@ -79,7 +87,26 @@ Concretamente en Gaza, las tropas británicas no tienen suerte y son rechazadas 
 
 El uso de las órdenes de *Kress*, que tenemos en un *chit*, permite que determinados ataques de las tropas Otomanas y Alemanas se vean intensificados y mejorados, causando varias bajas decisivas en las tropas británicas.
 
+![Kress](imgs/01-Kress.png)
+
+A lo largo de la partida la caballeria británica ha intentado en 2 ocasiones que una carga con el bonificador sea capaz de sacar a los Otomanos de las trincheras, pero tampoco la suerte les ha sonreido, quedando atrapados en un combate cuerpo a cuerpo, que aunque pueden acabar ganando los británicos, da a los Otomanos el tiempo suficiente como para acabar la partida e impedir que los británicos obtengan los puntos de Victoria.
+
+Estas cargas potenciadas están representadas con un par de *chits* que nos permitirán acordarnos de aplicarlas y de marcar que las hemos realizado.
+
 ![Reservas](imgs/01-Reservas.jpg)
 
 ## Final de partida y Conclusiones
+
+El intento de los británicos de tomar Gaza con todas las fuerzas posibles ha sido rechazado y las potencias centrales han formado un férreo muro que no han podido cruzar  ni realizar embolsamiento. Las potentes unidades británicas no han sido capaces de sacarle todo el provecho a su superior potencia.
+
+Tengo que darle más partidas, pero los marcadores de bombardeo británicos apenas han realizado bajas. Supongo que en casos en los que se consigue romper el frente y las unidades que están embolsando pueden designar como objetivos unidades Otomanas que no estén en combate con las británicas (*el fuego amigo mata*).
+
+Al final, sólo 2 puntos han sido obtenidos por los británicos, lo que da lugar a una **Victoria Operacional de las Potencias Centrales**.
+
+Me ha gustado el sistema, fácil de leer, fácil de aplicar y con las hojas de ayuda que han colgado en la BGG, junto con la CRT del juego plastificada y aparte, se juega en menos de los 90 minutos que aparece. 
+
+![Ayudas](imgs/01-Ayudas.png)
+
+Me falta experiencia en Wargames y más si cabe en este periodo, pero por lo que he podido leer ( que me falta mucho por hacer ), creo que el juego representa bien la situación de ambas facciones, con una serie de reglas de *cromo* sencillas y fáciles de aplicar y recordar.
+
 
