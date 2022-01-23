@@ -14,9 +14,9 @@ Gaza 1917 de Decision Games es un juego integrado dentro de la serie *folio* de 
 
 Se presenta en un bolsa *zip* y su precio no excede los 20 euretes.
 
-TODO: Caratula
+![Cover](imgs/cover.jpg)
 
-En Decision tienen varios sistemas que forman la base de diferentes juegos y luego cada uno de ellos matiza o adapta esas reglas **base** para la batalla, escenario, operación,...
+En Decision Games tienen varios sistemas que forman la base de diferentes series de juegos y luego cada uno de ellos matiza o adapta esas reglas **base** para la batalla, escenario, operación,...
 
 Este juego en concreto utiliza el *core* de reglas de *Fire & Movement* que es utilizado en diferentes escenarios de la IGM y la IIGM.
 
@@ -33,21 +33,21 @@ No detallaré el funcionamiento de todo el sistema, pero voy a enumerar ciertos 
 - Existen excepciones a esto, de hecho en *Gaza 1917* se permite el apilamiento de unidades, pero sólo por parte de los británicos y con acorazadas y tanques, lo que en la primera guerra mundial simula bien el uso de este tipo de unidades en los ejércitos.
 - Las **ZOC** son *duras*, obligan a detenerse y cuestan muchos puntos de movimiento.
 - La **CRT** es muy sencilla de aplicar y para mí es novedosa, se resta el ataque de la defensa y el resultado se mira en una tabla que tiene en cuenta los diferentes tipos de terreno. Se juega con 1d6 y los resultados bajos son mejores que los altos (1>6).
-- El uso de la artillería mediante chits me ha parecido adecuado para simular que no siempre viene bien utilizar la potencia de fuego.
+- El uso de la artillería mediante *chits* me ha parecido adecuado para simular que no siempre viene bien utilizar la potencia de fuego.
 - En las reglas generales los vehículos pueden combatir y bombardear en diferentes fases, lo que permite hacer determinados efectos y jugadas, otorgando flexibilidad, aunque en este *Gaza 1917* estas fases no se aplican (supongo que porque la presencia de blindados en este momento de la guerra sería anecdótica).
 - Algunas reglas del core son matizadas o definidas para este escenario (que también viene en la bolsa zip), por destacar alguna:
     - La coordinación en el ataque de las unidades diferentes tiene un desplazamiento de columnas.
     - El alcance del bombardeo es diferente por bando y además tiene en cuenta las colinas.
     - Los refuerzos.
-    - Los Puntos de Victoría y las posibles Victorias Automáticas.
+    - Los Puntos de Victoria y las posibles Victorias Automáticas.
     - Reabastecimiento de los *chits* de Bombardeo cada día.
     - Apilamientos especiales.
 
 ## Objetivos de la partida
 
-El escenario enfrenta a las Potencias Centrales (CP de *Central Powers*) a una incursión británica cuyo objetivo era la toma de Jerusalen. Los alemanes y los otomanos defenderán Gaza y una serie de pequeñas poblaciones (debidamente atrincheradas) de las fuerzas británicas.
+El escenario enfrenta a las Potencias Centrales (CP de *Central Powers*) a una incursión británica cuyo objetivo era la toma de Jerusalén. Los alemanes y los otomanos defenderán Gaza y una serie de pequeñas poblaciones (debidamente atrincheradas) de las fuerzas británicas.
 
-En el despliegue, las tropas británicas han de situarse al sur de Gaza, más allá de un rio/barranco.
+En el despliegue, las tropas británicas han de situarse al sur de Gaza, más allá de un río/barranco.
 
 ![Despliegue](imgs/01-Inicio-Completo.jpg)
 
@@ -69,7 +69,7 @@ Otras unidades *resistentes* han sido situadas al sudeste del mapa, con el objet
 
 **Aviso a Navegantes**: Redacto este apartado de manera continua.
 
-Los británicos comenzaron a avanzar en línea hacia Gaza e intentando tomar todas las ciudades defendidas por las Potencias Centrales a la vez. A medida que las unidades Otomanas quedaban al alcance de la artillería británica se utilizaban todos los chits posibles para intentar diezmar las fuerzas defensivas en los diferentes asentamientos y cidudades. El intercambio de artillería (ya que los Otomanos también pueden responder a ese fuego), causa bajas en el ejército británico y ninguna en el bando de las Potencias Centrales.
+Los británicos comenzaron a avanzar en línea hacia Gaza e intentando tomar todas las ciudades defendidas por las Potencias Centrales a la vez. A medida que las unidades Otomanas quedaban al alcance de la artillería británica se utilizaban todos los chits posibles para intentar diezmar las fuerzas defensivas en los diferentes asentamientos y ciudades. El intercambio de artillería (ya que los Otomanos también pueden responder a ese fuego), causa bajas en el ejército británico y ninguna en el bando de las Potencias Centrales.
 
 ![Bajas](imgs/01-Bajas-Británicas.jpg)
 
@@ -81,7 +81,7 @@ El uso de la fuerza aérea por parte de los Otomanos hace posible el bombardeo d
 
 Cuando los británicos llegan hasta las diferentes ciudades fortificadas, defendidas por los Otomanos, comienzan los combates, donde la superioridad numérica de los británicos no se nota tanto, ya que al no poder coordinar ataques sin tener penalizaciones, se ven forzados a intentar asaltos donde un resultado de *Ex* (Exchange), les beneficia. Las trincheras (*Trenches*), sólo benefician a las Potencias Centrales, lo que hace que muchos asaltos no tengan éxito o sean rechazados. 
 
-Concretamente en Gaza, las tropas británicas no tienen suerte y son rechazadas varias veces por las tropas defensoras + los refuerzos de caballeria que aparecen a lo largo de los turnos.
+Concretamente en Gaza, las tropas británicas no tienen suerte y son rechazadas varias veces por las tropas defensoras + los refuerzos de caballería que aparecen a lo largo de los turnos.
 
 ![Refuerzos](imgs/01-Llegada-Refuerzos.jpg)
 
@@ -89,7 +89,7 @@ El uso de las órdenes de *Kress*, que tenemos en un *chit*, permite que determi
 
 ![Kress](imgs/01-Kress.png)
 
-A lo largo de la partida la caballeria británica ha intentado en 2 ocasiones que una carga con el bonificador sea capaz de sacar a los Otomanos de las trincheras, pero tampoco la suerte les ha sonreido, quedando atrapados en un combate cuerpo a cuerpo, que aunque pueden acabar ganando los británicos, da a los Otomanos el tiempo suficiente como para acabar la partida e impedir que los británicos obtengan los puntos de Victoria.
+A lo largo de la partida la caballería británica ha intentado en 2 ocasiones que una carga con el bonificador sea capaz de sacar a los Otomanos de las trincheras, pero tampoco la suerte les ha sonreído, quedando atrapados en un combate cuerpo a cuerpo, que aunque pueden acabar ganando los británicos, da a los Otomanos el tiempo suficiente como para acabar la partida e impedir que los británicos obtengan los puntos de Victoria.
 
 Estas cargas potenciadas están representadas con un par de *chits* que nos permitirán acordarnos de aplicarlas y de marcar que las hemos realizado.
 
