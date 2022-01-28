@@ -1,6 +1,7 @@
 
 # Ejercicios de entrenamiento ProgramaMe 2022 VLC - básico
 
+![Easy](imgs/easy-easy.png)\
 
 | Número  | Título  | Temario| 
 |---------|---------|--------|
@@ -23,33 +24,32 @@
 | 434 | Romance en el palomar| Condicionales simples.|
 | 456 | Tarta Sacher| Expresiones.|
 | 467 | Polisílaba es polisílaba| Cadenas de texto (String).|
+| 140 | Suma de dígitos | 3433 → 3 + 4 + 3 + 3 = 13|
+| 151 | ¿Es matriz identidad? | Matrices.|
+| 166 | Zapping Lista circular de enteros. |Calcular diferencia.|
+| 171 | Abadı́as pirenáicas |Vectores.|
+| 180 | Triángulos |Condicionales.|
+| 216 | Goteras |Pasar de segundos a horas, minutos y segundos.|
+| 219 | La lotería de la peña Atlética| Vectores.|
+| 252 | ¿Acaso hubo búhos acá? |Cadenas de texto (String).|
+| 337 | La abuela Marı́a |Vectores.|
+| 359 | Timo en el cocedero de mariscos |Expresiones / Bucles simples.|
+| 370 | La 13-14 Condicionales. |Tratamiento de la entrada (split).|
+| 374 | Criogenización |Bucles simples. Máximo, mínimo y contar.|
+| 407 | Rebotando en el parchís |Expresiones.|
+| 411 | Sobre la tela de una araña |Bucles simples.|
+| 416 | Michael J. Fox y el Pato Donald |Bucles anidados.|
+| 435 | El Pijote |Vectores.|
+| 446 | Abuelas falsas |Bucles simples. Cadenas de texto.|
+| 471 | Buscando el pinchazo |Expresiones.|
+| 472 | Caminando voy |Condicionales.|
 
-Número Título Temario
-140 Suma de dígitos 3433 → 3 + 4 + 3 + 3 = 13
-151 ¿Es matriz identidad? Matrices.
-166 Zapping Lista circular de enteros. Calcular diferencia.
-171 Abadı́as pirenáicas Vectores.
-180 Triángulos Condicionales.
-216 Goteras Pasar de segundos a horas, minutos y segundos.
-219 La lotería de la peña Atlética Vectores.
-252 ¿Acaso hubo búhos acá? Cadenas de texto (String).
-337 La abuela Marı́a Vectores.
-359 Timo en el cocedero de mariscos Expresiones / Bucles simples.
-370 La 13-14 Condicionales. Tratamiento de la entrada (split).
-374 Criogenización Bucles simples. Máximo, mínimo y contar.
-407 Rebotando en el parchís Expresiones.
-411 Sobre la tela de una araña Bucles simples.
-416 Michael J. Fox y el Pato Donald Bucles anidados.
-435 El Pijote Vectores.
-446 Abuelas falsas Bucles simples. Cadenas de texto.
-471 Buscando el pinchazo Expresiones.
-472 Caminando voy Condicionales.
-```
+# Ejercicios Intermedio - Facil
 
-# Ejercicios de entrenamiento ProgramaMe 2019 VLC - intermedio
+![Easy](imgs/medio-medio.png)\
 
-```
-Número Título Temario
+| Número  | Título  | Temario| 
+|---------|---------|--------|
 102 Encriptación de mensajes Cadenas de texto (String). Vectores.
 115 Número de Kaprekar Algoritmo ad-hoc.
 148 Nochevieja Expresiones. Tratamiento datos de entrada.
@@ -68,9 +68,9 @@ Número Título Temario
 433 Racimos de uvas Expresiones / Bucles simples.
 442 Camellos, serpientes y kebabs Cadenas de texto (String).
 466 Multiplicando mal Bucles simples.
-```
-```
-Número Título Temario
+
+| Número  | Título  | Temario| 
+|---------|---------|--------|
 100 Constante de Kaprekar Algoritmo de Ordenación.
 121 Chicles de regalo Bucles simples.
 124 ¿Cuántas me llevo? Recorridos.
@@ -87,12 +87,11 @@ Número Título Temario
 429 Organizando los hangares Algoritmo voraz.
 464 Entrando en pelotón Ordenación por varios campos.
 470 Montando semáforos StringBuilder
-```
 
 # Ejercicios de entrenamiento ProgramaMe 2019 VLC - avanzado
 
-```
-Número Título Temario
+| Número  | Título  | Temario| 
+|---------|---------|--------|
 101 Cuadrados diabólicos y esotéricos Matrices.
 129 Marcadores de 7 segmentos Matrices.
 176 Campo de minas Matrices.
@@ -106,10 +105,9 @@ Número Título Temario
 445 Semana de la Informática Algoritmo voraz.
 469 Pesando patatas Pensar.
 
-```
-```
 
-Número Título Temario
+| Número  | Título  | Temario| 
+|---------|---------|--------|
 113 Semáforos sin parar Búsqueda en el espacio de soluciones.
 146 Números afortunados
 226 Reescribiendo fracciones
@@ -121,5 +119,4 @@ Número Título Temario
 418 RENUM
 432 Escapando de las fuerzas imperiales Matrices, recursividad.
 449 Trim Programación dinámica
-
 
