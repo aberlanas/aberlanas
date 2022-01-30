@@ -1,6 +1,6 @@
 # AAR
 
- * [Gaza 1917 [SOLO]](./Games/Gaza-1917/01-AAR-Solitario.md)
+ * [Gaza 1917 [SOLO]](./Gaza-1917/01-AAR-Solitario.md)
 
 # Utilidades
 
