@@ -18,7 +18,7 @@ Year 2021-2022:
 ### Workspace
 
 
-- [List of Acepta El Reto Katas](./Katas/AceptaElReto-List.md)
+- [List of Acepta El Reto Katas](./Katas/README.md)
 - Some useful packages:
 
  * fonts-jetbrains-mono
