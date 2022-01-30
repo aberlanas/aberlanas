@@ -33,7 +33,7 @@ Year 2021-2022:
 
 ### BoardGaming 
 
-- [Testing Area - Wargames](./Games/Readme.md)
+- [Testing Area - Boardgames](./Games/)
 
 ### Other Info
 
