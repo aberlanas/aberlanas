@@ -90,7 +90,7 @@ Actualizado a Enero 2022
 |429 | Organizando los hangares  | Algoritmo voraz.|
 |464 | Entrando en pelotón  | Ordenación por varios campos.|
 |470 | Montando semáforos  | StringBuilder|
-|618 | [Buscando el Nivel ](https://www.aceptaelreto.com/problem/statement.php?id=618) | Patxi| 
+|618 | [Buscando el Nivel ](https://www.aceptaelreto.com/problem/statement.php?id=618) | Vectores y Operaciones| 
 |619 | [Pantallas de carga](https://www.aceptaelreto.com/problem/statement.php?id=619) | Matrices | 
 
 
