@@ -48,6 +48,7 @@ Actualizado a Enero 2022
 | 471 | Buscando el pinchazo |Expresiones.|
 | 472 | Caminando voy |Condicionales.|
 | 616 | [Pic,poc,pic,...pong](https://www.aceptaelreto.com/problem/statement.php?id=616)| Tratamiento de la entrada |
+| 617 | [Mensajes en Space Invaders](https://www.aceptaelreto.com/problem/statement.php?id=617) | Tratamiento de la entrada |
 
 ## Ejercicios Intermedio
 
@@ -89,6 +90,9 @@ Actualizado a Enero 2022
 |429 | Organizando los hangares  | Algoritmo voraz.|
 |464 | Entrando en pelotón  | Ordenación por varios campos.|
 |470 | Montando semáforos  | StringBuilder|
+|618 | [Buscando el Nivel ](https://www.aceptaelreto.com/problem/statement.php?id=618) | Patxi| 
+|619 | [Pantallas de carga](https://www.aceptaelreto.com/problem/statement.php?id=619) | Matrices | 
+
 
 ## Difíciles
 
@@ -119,4 +123,5 @@ Actualizado a Enero 2022
 |418 |RENUM| | 
 |432 |Escapando de las fuerzas imperiales  | Matrices, recursividad.|
 |449 |Trim  | Programación dinámica|
+|620 | [Juegos en Cintas](https://www.aceptaelreto.com/problem/statement.php?id=620)| ¿Problema de la mochila? |
 
