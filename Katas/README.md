@@ -1,6 +1,8 @@
 
 # Ejercicios de entrenamiento ProgramaMe 2022
 
+Actualizado a Enero 2022
+
 ## Sencillos
 
 ![Easy](imgs/easy-easy.png)\
@@ -45,6 +47,7 @@
 | 446 | Abuelas falsas |Bucles simples. Cadenas de texto.|
 | 471 | Buscando el pinchazo |Expresiones.|
 | 472 | Caminando voy |Condicionales.|
+| 616 | [Pic,poc,pic,...pong](https://www.aceptaelreto.com/problem/statement.php?id=616)| Tratamiento de la entrada |
 
 ## Ejercicios Intermedio
 
