@@ -89,6 +89,8 @@
 
 ## Difíciles
 
+![Easy](imgs/hard-bajo.png)\
+
 | Número  | Título  | Temario| 
 |---------|---------|--------|
 | 101 | Cuadrados diabólicos y esotéricos  | Matrices.|
