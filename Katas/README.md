@@ -1,5 +1,5 @@
 
-# Ejercicios de entrenamiento ProgramaMe 2022 VLC - básico
+# Ejercicios de entrenamiento ProgramaMe 2022
 
 ![Easy](imgs/easy-easy.png)\
 
@@ -88,7 +88,6 @@
 |464 | Entrando en pelotón Ordenación por varios campos.|
 |470 | Montando semáforos StringBuilder|
 
-# Ejercicios de entrenamiento ProgramaMe 2019 VLC - avanzado
 
 | Número  | Título  | Temario| 
 |---------|---------|--------|
