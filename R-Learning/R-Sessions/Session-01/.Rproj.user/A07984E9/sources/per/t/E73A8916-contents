@@ -2,5 +2,5 @@
 
 a <- cos(8)
 
-print(a)
+pasteº("Esto es " + a)
 

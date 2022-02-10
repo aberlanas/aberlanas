@@ -3,7 +3,7 @@
     "path": "~/GitHub/aberlanas/R-Learning/R-Sessions/Session-01/Session01.R",
     "project_path": "Session01.R",
     "type": "r_source",
-    "hash": "2245881497",
+    "hash": "1011176845",
     "contents": "",
     "dirty": false,
     "created": 1644512276218.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "6,0",
+        "cursorPosition": "4,6",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1644512944,
+    "lastKnownWriteTime": 1644513413,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1644512944100,
+    "last_content_update": 1644513413280,
     "read_only": false,
     "read_only_alternatives": []
 }
