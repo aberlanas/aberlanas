@@ -25,5 +25,10 @@ media(numero)
 poli <- function(x,y,z){
   return( x^2+y^3+z^4)
 }
+#x <- function(){return(3)}
 
-print(poli(3,4,5))
+
+print(poli(x,x,x))
+
+ma = matrix(data=c(1, 1, 2, 2),2,2,byrow = TRUE)
+print(ma)
