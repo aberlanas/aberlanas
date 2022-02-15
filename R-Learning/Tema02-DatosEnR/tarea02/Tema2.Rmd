@@ -1,0 +1,39 @@
+---
+title: "Tema2"
+author: "Angel Berlanas Vicente"
+subject: "Ejemplo de Salida"
+date: "15/2/2022"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 2
+    fig_caption: true
+---
+
+\newpage
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Markdown
+## Introducción
+
+Vamos a leer los datos de diferentes paises.
+
+Estos datos provienen de la libreria de `gapminder`.
+
+```{r datos-library}
+library(openxlsx)
+datos_brutos <- read.xlsx("rsrc/valencia_viajeros_por_franja_xlsx.xlsx")
+summary(datos_brutos)
+```
+\newpage
+## Incluyendo Gráficos
+
+Con esos datos podemos generar un Diagrama de Caja Bigotes.
+```{r datos-viajeros}
+library(openxlsx)
+datos_brutos <- read.xlsx("rsrc/valencia_viajeros_por_franja_xlsx.xlsx")
+hist(datos_brutos)
+```
