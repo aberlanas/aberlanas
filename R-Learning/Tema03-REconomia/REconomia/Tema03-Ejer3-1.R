@@ -1,3 +1,8 @@
+# Load packages 
+library(tidyverse) 
+library(gapminder) # este paquete contiene los datos que vamos a emplear
+library(ggthemes) # este paquete tiene temas gráficos (plantillas)
+library(ggrepel) # este paquete evita que las etiquetas se superpongan en los gráficos
 
 # Obtenemos los datos
 datos_brutos <- gapminder::gapminder
