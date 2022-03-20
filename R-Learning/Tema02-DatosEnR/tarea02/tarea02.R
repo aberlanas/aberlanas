@@ -3,12 +3,15 @@
 #install.packages("xlsx")
 #install.packages("openxlsx")
 # 
-#packages <- c("readxl", "gapminder", "openxlsx")
-#install.packages(setdiff(packages, rownames(installed.packages()))) 
+packages <- c("readxl", "gapminder", "openxlsx")
+install.packages(setdiff(packages, rownames(installed.packages()))) 
 
+library(openxlsx)
+library(gapminder)
+library(readxl)
 
 # Cargamos los datos
-serie_parados_trimestral_2002_2019 <- read_excel("rsrc/serie_parados_trimestral_2002_2019.xlsx")
+serie_parados_trimestral_2002_2019 <- read.xlsx("rsrc/serie_parados_trimestral_2002_2019.xlsx")
 
 serie_parados_csv <- read.csv2("rsrc/serie_parados_trimestral_2002_2019.csv")
 
