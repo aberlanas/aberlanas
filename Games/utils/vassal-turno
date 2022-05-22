@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# This script is licensed under GPL v3 or higher
+# Author: Angel Berlanas Vicente
+# email : a.berlanasvicente@edu.gva.es 
+
+TELEGRAM_DOWNLOAD_PATH="/home/aberlanas/Descargas/Telegram Desktop/"
+TELEGRAM_BINARY_PATH="/home/aberlanas/bin/Telegram/Telegram"
+GAMES_PATH="/home/aberlanas/Documentos/Juegos/"
+VASSAL_BINARY="vassal-3.6.6"
+VASSAL_HELPER_PATH="/home/aberlanas/bin/$(basename $0)"
+VASSAL_HELPER_GITHUB="/home/aberlanas/GitHub/aberlanas/Games/utils/$(basename $0)"
+
+rc=0
+diff -q $VASSAL_HELPER_GITHUB $VASSAL_HELPER_PATH || rc=1
+
+if [ ${rc} -eq 1 ]; then
+	echo " * The Helper is out-of-date "
+	echo " * Please install the last version" 
+	echo " * cp ${VASSAL_HELPER_PATH} ${VASSAL_HELPER_GITHUB}"
+fi
+
+echo " * Cleaning Telegram "
+rm -rf "${TELEGRAM_DOWNLOAD_PATH}"/*.vlog
+
+echo " * Launching Telegram "
+${TELEGRAM_BINARY_PATH} & 
+
+
+echo " * Nautilus opening folders"
+nautilus "${TELEGRAM_DOWNLOAD_PATH}" &
+nautilus "${GAMES_PATH}" & 
+
+echo " * Vassal binary" 
+${VASSAL_BINARY}   
+
+
+
+
+exit 0
