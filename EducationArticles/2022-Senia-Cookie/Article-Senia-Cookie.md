@@ -1,6 +1,6 @@
 ---
 title: "SMX y el Mantenimiento: Capítulo 1"
-author: [Departamento de Informática del IES La Senia]
+author: [Departamento de Informática del IES La Sénia]
 date: "2022-02-17"
 subject: "Markdown"
 keywords: [SMX,ABS,GNU, Software Libre]
@@ -9,11 +9,12 @@ lang: "es"
 page-background: "../rsrc/backgrounds/background-senia.pdf"
 page-background-opacity: 1
 titlepage: true,
+output: pdf_document
 titlepage-text-color: "000000"
 titlepage-rule-color: "360049"
 titlepage-rule-height: 0
 titlepage-background: "../rsrc/backgrounds/background-cover.pdf"
-bibliography: senia-cookie-references.bib
+bibliography: senia-cookie-references.bibtex
 link-citations: yes
 citation_package: natbib
 ---
@@ -24,10 +25,10 @@ citation_package: natbib
 # Introducción
 
 En este pequeño artículo se presenta una experiencia llevada a cabo por el Departamento de Informática del IES La Sénia de Paiporta 
-en el que se describe como el Alumnado del primer curso de Grado Medio del Ciclo de Sistemas Microinformáticos y Redes, lleva a cabo 
+en el que se describe cómo el Alumnado del primer curso de Grado Medio del Ciclo de Sistemas Microinformáticos y Redes, lleva a cabo 
 en el centro un pequeño desarrollo de una herramienta destinada a mejorar el mantenimiento y asistencia de los Ordenadores del IES.
 
-A lo largo del artículo se describe cuales son algunas de las metodologías de trabajo que el profesorado del ciclo lleva a cabo con los alumnos y cómo 
+A lo largo del artículo se describe cuáles son algunas de las metodologías de trabajo que el profesorado del ciclo lleva a cabo con los alumnos y cómo 
 se pueden mejorar y *afinar* las herramientas para adecuarlas al entorno de trabajo.
 
 Por último se describen algunas de las *Unidades de Competencia* que se han puesto en marcha a la hora de detectar/desarrollar e implementar
@@ -77,7 +78,7 @@ Desde el Departamento de Informática llevamos varios años poniéndolo en prác
 
 En este pequeño artículo tan sólo trataremos el desarrollo de una pequeña propuesta, pero esperamos que sirva de ejemplo de todo lo que este tipo de implicación puede aportar a la práctica educativa.
 
-Es importante destacar que en todo el IES utilizamos GNU/LinuX como distribución en todos los ordenadores, así que las herramientas que se describen y utilizan son de acceso gratuito y libre, reduciendo la brecha digital y fomentando la curiosidad y los valores del Software Libre dentro de la Comunidad Educativa[@adell2007software].
+Es importante destacar que en todo el IES utilizamos GNU/LinuX como distribución en todos los ordenadores, así que las herramientas que se describen y utilizan son de acceso gratuito y libre, reduciendo la brecha digital y fomentando la curiosidad y los valores del Software Libre dentro de la Comunidad Educativa [@adell2007software].
 
 \newpage
 # Detectando el problema
@@ -101,7 +102,7 @@ Con esta solución, podemos comprobar rápidamente situaciones cómo:
 \newpage
 # Proponiendo la mejora
 
-Una vez propuesta la idea, se valoró por parte del equipo docente la posibilidad de configurar el servicio de `lightdm` para que mostrara dicha información. Sin embargo, la posibilidad de poder ampliar la información mostrada más adelante hacía más complicado la configuración del `lightdm`. Con lo que se propuso la siguiente solución:
+Una vez propuesta la idea, se valoró por parte del equipo docente la posibilidad de configurar el servicio de `lightdm` para que mostrara dicha información. Sin embargo, la posibilidad de poder ampliar la información mostrada más adelante hacía más complicada la configuración del `lightdm`. Con lo que se propuso la siguiente solución:
 
 La elaboración de un *script* que al ejecutarse en cada arranque obtuviera un texto que se añadiría sobre una pequeña *cookie* en la parte inferior derecha del fondo de pantalla, sobrescribiendo el fichero del fondo en cada ejecución. 
 
@@ -116,9 +117,9 @@ Una vez obtenida dicha información, se utilizaría el fichero del fondo de pant
 \newpage
 # Implementando la mejora
 
-El alumnado separó la solución en dos scripts independientes, por una lado la obtención de la información y por otro la modificación de la imagen, permitiendo así más fácilmente la modificación del programa para incluir más información en caso de que se requiera. Esto es muy de la Filosofía UNIX [^UNIX].
+El alumnado separó la solución en dos scripts independientes, por una lado la obtención de la información y por otro la modificación de la imagen, permitiendo así más fácilmente la modificación del programa para incluir más información en caso de que se requiera. Esto es muy de la Filosofía UNIX[^UNIX].
 
-Los dos scripts resultantes fueron incorporados al repositorio de Software de La Senia:
+Los dos scripts resultantes fueron incorporados al repositorio de Software de La Sénia:
 
 - [senia-network-info](https://github.com/aberlanas/senia-cdd/blob/master/senia-backgrounds.install/usr/bin/senia-network-info)
 - [senia-cookie-info-wallpaper](https://github.com/aberlanas/senia-cdd/blob/master/senia-backgrounds.install/usr/bin/senia-cookie-info-wallpaper)
@@ -127,14 +128,14 @@ Estos dos *scripts* fueron utilizados por un pequeño *OneShot* de Systemd para 
 
 - [senia-backgrounds.service](https://github.com/aberlanas/senia-cdd/blob/master/debian/senia-backgrounds.service)
 
-El OneShot fue diseñado por el alumnado, y desarrollado con ayuda del equipo de docentes del Departamento. Durante el desarrollo se aprovechó para explicar como funciona el sistema de Arranque de las Distribuciones GNU/LinuX basadas en `systemd`.
+El OneShot fue diseñado por el alumnado, y desarrollado con ayuda del equipo de docentes del Departamento. Durante el desarrollo se aprovechó para explicar cómo funciona el Sistema de Arranque de las Distribuciones GNU/LinuX basadas en `systemd`.
 
 [^UNIX]:https://es.wikipedia.org/wiki/Filosof%C3%ADa_de_Unix
 
 \newpage
 # Pruebas
 
-Una vez incluido el Software dentro del paquete de `senia-backgrounds` y subido este al [PPA de la Infraestructura del IES La Senia](https://launchpad.net/~ticsenia/+archive/ubuntu/ppa/), el alumnado actualizó los equipos del Aula 1 de Informática, comprobando que el resultado era el esperado.
+Una vez incluido el Software dentro del paquete de `senia-backgrounds` y subido este al [PPA de la Infraestructura del IES La Sénia](https://launchpad.net/~ticsenia/+archive/ubuntu/ppa/), el alumnado actualizó los equipos del Aula 1 de Informática, comprobando que el resultado era el esperado.
 
 ![Haciendo Pruebas](./imgs/senia-cookie-report.jpg)\
 
@@ -256,5 +257,4 @@ Lo que ofrece el Software Libre es exactamente eso, la capacidad de poder entrar
 - A todo el equipo docente de todo el Grado Medio de Informática.
 - Al equipo directivo del IES La Sénia, por permitir que el alumnado nos ayude día a día a hacer un mejor instituto y una mejor comunidad educativa.
 
-\newpage
 

@@ -46,6 +46,6 @@ articles-22: clean files
 	@for f in $(ARTICLES2022_FILES); do \
 		#echo $$f ;\
     	echo " - ${LIGHTYELLOW} Working${RESET} with: `basename $$f`";\
-		cd $(ARTICLES2022) && pandoc $$f --template $(TEMPLATE_TEX_TASK) $(PANDOC_OPTIONS) --bibliography=senia-cookie-references.bib --from markdown --listings -o $(PDF_PATH)/`basename $$f .md`.pdf ;\
+		cd $(ARTICLES2022) && pandoc $$f --template $(TEMPLATE_TEX_TASK) $(PANDOC_OPTIONS) --from markdown --listings -o $(PDF_PATH)/`basename $$f .md`.pdf ;\
     done
 
