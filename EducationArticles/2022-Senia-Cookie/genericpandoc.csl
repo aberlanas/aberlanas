@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <info>
+    <title>Generic pandoc citation style</title>
+    <id>https://github.com/donlelek/pandoc-csl</id>
+    <link href="https://github.com/donlelek/pandoc-csl" rel="self"/>
+    <link href="https://github.com/donlelek/pandoc-csl" rel="documentation"/>
+    <author>
+      <name>Derek Price</name>
+      <email>dpricer@gmail.com</email>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="generic-base"/>
+    <updated>2015-03-06T17:20:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <macro name="refman2pandocType">
+    <choose>
+      <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+        <text value="book"/>
+      </if>
+      <else-if type="chapter paper-conference" match="any">
+        <text value="inbook"/>
+      </else-if>
+      <else-if type="article article-journal article-magazine article-newspaper" match="any">
+        <text value="article-journal"/>
+      </else-if>
+      <else-if type="thesis" match="any">
+        <text value="phdthesis"/>
+      </else-if>
+      <else-if type="manuscript" match="any">
+        <text value="unpublished"/>
+      </else-if>
+      <else-if type="paper-conference" match="any">
+        <text value="inproceedings"/>
+      </else-if>
+      <else-if type="report" match="any">
+        <text value="techreport"/>
+      </else-if>
+      <else>
+        <text value="misc"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="citeKey">
+    <group delimiter="">
+      <text macro="author-short" text-case="lowercase"/>
+      <text macro="issued-year"/>
+    </group>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" delimiter="_" delimiter-precedes-last="always"/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <choose>
+          <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+            <text variable="title" form="short"/>
+          </if>
+          <else>
+            <text variable="title" form="short"/>
+          </else>
+        </choose>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="issued-year">
+    <date variable="issued">
+      <date-part name="year"/>
+    </date>
+  </macro>
+  <macro name="issued-month">
+    <date variable="issued">
+      <date-part name="month" form="short" strip-periods="true"/>
+    </date>
+  </macro>
+  <macro name="author">
+    <names variable="author">
+      <name sort-separator=", " delimiter=" and " delimiter-precedes-last="always" name-as-sort-order="all"/>
+      <label form="long" text-case="capitalize-first"/>
+    </names>
+  </macro>
+  <macro name="editor-translator">
+    <names variable="editor translator" delimiter=", ">
+      <name sort-separator=", " delimiter=" and " delimiter-precedes-last="always" name-as-sort-order="all"/>
+      <label form="long" text-case="capitalize-first"/>
+    </names>
+  </macro>
+  <macro name="title">
+    <text variable="title"/>
+  </macro>
+  <macro name="number">
+    <text variable="issue"/>
+    <text variable="number"/>
+  </macro>
+  <macro name="container-title">
+    <choose>
+      <if type="chapter paper-conference" match="any">
+        <text variable="container-title" prefix="  booktitle: " />
+      </if>
+      <else>
+        <text variable="container-title" prefix="  journal: " />
+      </else>
+    </choose>
+  </macro>
+  <macro name="publisher">
+    <choose>
+      <if type="thesis">
+        <text variable="publisher" prefix="  school: " />
+      </if>
+      <else-if type="report">
+        <text variable="publisher" prefix="  institution: " />
+      </else-if>
+      <else>
+        <text variable="publisher" prefix="  publisher: " />
+      </else>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <text variable="page" delimiter="-" />
+  </macro>
+  <macro name="edition">
+    <text variable="edition"/>
+  </macro>
+  <citation et-al-min="10" et-al-use-first="10" disambiguate-add-year-suffix="true" disambiguate-add-names="false" disambiguate-add-givenname="false" collapse="year">
+    <sort>
+      <key macro="author"/>
+      <key variable="issued"/>
+    </sort>
+    <layout delimiter="">
+      <text macro="citeKey"/>
+    </layout>
+  </citation>
+  <bibliography hanging-indent="false" et-al-min="10" et-al-use-first="10">
+    <sort>
+      <key macro="author"/>
+      <key variable="issued"/>
+    </sort>
+    <layout>
+      <group delimiter=" \newline  ">
+        <text macro="title" prefix="- title: " />
+        <text macro="refman2pandocType" prefix="  type: " />
+        <text macro="citeKey" prefix="  id: " />
+        <text variable="publisher-place" prefix="  place: " />
+        <text variable="chapter-number" prefix="  chapter: " />
+        <text macro="edition" prefix="  edition: " />
+        <text variable="collection-title" prefix="  series: " />
+        <text variable="volume" prefix="  volume: " />
+        <text variable="ISBN" prefix="  ISBN: " />
+        <text variable="ISSN" prefix="  ISSN: " />
+        <text variable="archive_location" prefix="  archiveLocation: " />
+        <text variable="URL" prefix="  URL: " />
+        <text variable="DOI" prefix="  DOI: " />
+        <text variable="note" prefix="  note: " />
+        <text macro="number" prefix="  number: " />
+        <text macro="container-title" prefix="  container-title: " />
+        <text macro="publisher" prefix="  publisher: " />
+        <text variable="collection-title" prefix="  collection: " />
+        <text macro="pages" prefix="  pages: " />
+        <text macro="editor-translator" prefix="  editor: " />
+        <text value="author:" />
+        <text macro="author" prefix="- family: '" suffix="'" />
+        <text value="issued:" />
+        <text macro="issued-year" prefix="    year: " />
+        <text macro="issued-month" prefix="    month: " />
+      </group>
+    </layout>
+  </bibliography>
+</style>
