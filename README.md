@@ -6,7 +6,11 @@ In this page you can find some (useful) ideas and resources about **random** and
 ### Status
 
 - 🔭 I’m currently working on CLIL materials for IT Vocational Students.
-- 🌱 I’m currently learning : Wargames, Phil Eklund Games and Python.
+- 🌱 I’m currently learning : Phil Eklund Games and Python.
+
+### Articles
+
+- [ABS+Infraestructure](./EducationArticles/2022-Senia-Cookie/Article-Senia-Cookie.md)
 
 ### Repositories for Teaching 
 
@@ -20,15 +24,12 @@ Year 2021-2022:
 
 - Some useful packages:
 
- * fonts-jetbrains-mono
- * kitty
  * vim
  * git-buildpackage
 
 - My DotFiles are under GitHub:
 
   * [Bash Config](./Bash/dot.bashrc)
-  * [Kitty](./Kitty/kitty.conf)
   * [SciTE Config](./Scite/SciTEUser.properties)
 
 ### BoardGaming 
