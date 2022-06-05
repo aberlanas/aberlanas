@@ -7,7 +7,7 @@
 TELEGRAM_DOWNLOAD_PATH="/home/aberlanas/Descargas/Telegram Desktop/"
 TELEGRAM_BINARY_PATH="/home/aberlanas/bin/Telegram/Telegram"
 GAMES_PATH="/home/aberlanas/Documentos/Juegos/"
-VASSAL_BINARY="vassal-3.6.6"
+VASSAL_BINARY="vassal"
 VASSAL_HELPER_PATH="/home/aberlanas/bin/$(basename $0)"
 VASSAL_HELPER_GITHUB="/home/aberlanas/GitHub/aberlanas/Games/utils/$(basename $0)"
 
@@ -17,7 +17,7 @@ diff -q $VASSAL_HELPER_GITHUB $VASSAL_HELPER_PATH || rc=1
 if [ ${rc} -eq 1 ]; then
 	echo " * The Helper is out-of-date "
 	echo " * Please install the last version" 
-	echo " * cp ${VASSAL_HELPER_PATH} ${VASSAL_HELPER_GITHUB}"
+	echo " * cp ${VASSAL_HELPER_GITHUB} ${VASSAL_HELPER_PATH}"
 fi
 
 echo " * Cleaning Telegram "
