@@ -3,16 +3,14 @@
 
 prepare-dirs: 
 	@echo " * [ Building directories ] "
-	@mkdir -p $HOME/.config/kitty/
 
 
 
 install : prepare-dirs
 
-	@echo " * [ Kitty ] :  Copiando config de Kitty"
-	@cp Kitty/kitty.conf ~/.config/kitty/
+	cp Games/utils/vassal /usr/bin/
+	cp Games/utils/vassal /home/aberlanas/bin/
 
-	@echo " * [ Bash ]  : Copiando config de Bash "
-	@cp Bash/dot.bashrc ~/.bashrc
-
+	cp Games/utils/vassal-turno /usr/bin/
+	cp Games/utils/vassal-turno /home/aberlanas/bin/
 
