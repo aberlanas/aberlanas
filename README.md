@@ -21,6 +21,7 @@ Year 2021-2022:
 ### Workspace
 
 - [List of Acepta El Reto Katas](./Katas/)
+- [Maraton23en24](./Katas/AceptaElReto/23en24/)
 
 - Some useful packages:
 
