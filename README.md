@@ -18,6 +18,12 @@ Year 2021-2022:
 
 - [ SOX ](https://github.com/aberlanas/SMX-SOX)
 
+### Repositories for Senia cdd
+
+- [ La Senia Custom Debian Distribution ](https://github.com/aberlanas/senia-cdd/README.md)
+- [ Infraestructure of La Senia ](https://github.com/aberlanas/senia-cdd/Infraestructura.md)
+- [ PMB and XarxaLlibres ](https://github.com/aberlanas/pmb-xarxallibres-next)
+
 ### Workspace
 
 - [List of Acepta El Reto Katas](./Katas/)
