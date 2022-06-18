@@ -20,8 +20,8 @@ Year 2021-2022:
 
 ### Repositories for Senia cdd
 
-- [ La Senia Custom Debian Distribution ](https://github.com/aberlanas/senia-cdd/README.md)
-- [ Infraestructure of La Senia ](https://github.com/aberlanas/senia-cdd/docs/Infraestructura.md)
+- [ La Senia Custom Debian Distribution ](https://github.com/aberlanas/senia-cdd#readme)
+- [ Infraestructure of La Senia ](https://github.com/aberlanas/senia-cdd/blob/master/docs/Infraestructura.md)
 - [ PMB and XarxaLlibres ](https://github.com/aberlanas/pmb-xarxallibres-next)
 
 ### Workspace
